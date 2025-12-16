@@ -10,7 +10,7 @@ function Introduction({ onContinue }) {
         animate={{ scale: 1, rotate: 0 }}
         transition={{ type: "spring", duration: 0.8 }}
       >
-        💌
+        👋
       </motion.div>
       
       <motion.h1 
@@ -19,7 +19,8 @@ function Introduction({ onContinue }) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
       >
-        Hi there! 👋
+        Hi there! 👋<br />
+        <span style={{ fontSize: '0.9em' }}>សួស្តី! 👋</span>
       </motion.h1>
       
       <motion.p 
